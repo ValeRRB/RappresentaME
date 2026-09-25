@@ -9,7 +9,7 @@ class Main_Frame(customtkinter.CTkFrame):
         self.database = database
 
         self.columnconfigure(0, weight=1)
-        self.columnconfigure(1, weight=2)
+        self.columnconfigure(1, weight=3)
         self.rowconfigure(0, weight=1)
 
         self.listaStudenti = FrameListaStudenti(self, self.database)
