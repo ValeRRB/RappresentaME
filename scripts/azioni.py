@@ -1,8 +1,7 @@
 import customtkinter
 from PIL import Image
-from utils import resource_path
 
-class FrameListaStudenti(customtkinter.CTkScrollableFrame):
+class FrameAzioni(customtkinter.CTkFrame):
     def __init__(self, master, database):
         super().__init__(master)
         self.database = database
